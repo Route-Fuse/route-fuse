@@ -1,6 +1,6 @@
-# MergeMiles
+# RouteFuse
 
-MergeMiles is a web-based carpool matching platform that helps users find people travelling along similar routes.
+RouteFuse is a web-based carpool matching platform that helps users find people travelling along similar routes.
 
 Users enter their source, destination, and preferred travel time, and the system identifies compatible travellers based on route similarity and other travel factors.
 
@@ -13,7 +13,7 @@ Work in progress.
 ## Project Structure
 
 ```text
-MergeMiles/
+RouteFuse/
 ├── frontend/   # React + Vite UI
 ├── backend/    # FastAPI service
 └── ml/         # Future ML component notes
