@@ -1,0 +1,90 @@
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.card {
+  width: min(100%, 28rem);
+  background: #ffffff;
+  border: 1px solid #dbe8ff;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 12px 30px rgba(15, 76, 174, 0.08);
+}
+
+h1 {
+  margin: 0;
+  color: #0f4cae;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.tagline {
+  margin: 0.5rem 0 1.5rem;
+  text-align: center;
+  color: #44536d;
+}
+
+.trip-form {
+  display: grid;
+  gap: 0.55rem;
+}
+
+label {
+  font-weight: 600;
+  color: #1e2a3b;
+}
+
+input {
+  border: 1px solid #bfd4ff;
+  border-radius: 0.5rem;
+  padding: 0.65rem 0.75rem;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: 2px solid #70a2ff;
+  border-color: #70a2ff;
+}
+
+button {
+  margin-top: 0.8rem;
+  border: none;
+  border-radius: 0.55rem;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #1d5fd0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 1.25rem;
+  border-top: 1px solid #e5edff;
+  padding-top: 1rem;
+}
+
+.result h2 {
+  margin: 0 0 0.5rem;
+  color: #0f4cae;
+  font-size: 1.1rem;
+}
+
+.result p {
+  margin: 0.2rem 0;
+  color: #334155;
+}
+
+.error-message {
+  margin-top: 1rem;
+  color: #b42318;
+  font-weight: 600;
+}
